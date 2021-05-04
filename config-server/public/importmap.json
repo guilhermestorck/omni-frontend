@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@omni/example-portal": "http://localhost:8081/omni-example-portal.js",
+    "@omni/example-portal/": "http://localhost:8081/",
+
+    "@omni/example-portal-frame-mfe": "http://localhost:8082/omni-example-portal-frame-mfe.js",
+    "@omni/example-portal-frame-mfe/": "http://localhost:8082/"
+  }
+}

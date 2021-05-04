@@ -1,0 +1,42 @@
+services:
+  omni-wrapper:
+    build: ./omni-wrapper
+    networks:
+      - omni-network
+    ports:
+      - 8080:8080
+    environment:
+      - MAIN_MFE=@omni/example-portal
+      - IMPORT_MAP_URL=http://localhost:8083/importmap.json
+      - PORT=8080
+
+  example-portal:
+    build: ./example-portal
+    networks:
+      - omni-network
+    ports:
+      - 8081:8081
+    environment:
+      - PORT=8081
+
+  example-portal-frame-mfe:
+    build: ./example-portal-frame-mfe
+    networks:
+      - omni-network
+    ports:
+      - 8082:8082
+    environment:
+      - PORT=8082
+
+  config-server:
+    build: ./config-server
+    networks:
+      - omni-network
+    ports:
+      - 8083:8083
+    environment:
+      - PORT=8083
+
+networks:
+  omni-network:
+    driver: bridge

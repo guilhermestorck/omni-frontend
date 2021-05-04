@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@isomorphic-mf/navbar": "https://storage.googleapis.com/isomorphic.microfrontends.app/navbar/64b5b9d1386c26aab5fa5c1e029ff46ab9fa8b85/isomorphic-mf-navbar.js",
+    "@isomorphic-mf/navbar/": "https://storage.googleapis.com/isomorphic.microfrontends.app/navbar/64b5b9d1386c26aab5fa5c1e029ff46ab9fa8b85/",
+    "@isomorphic-mf/pokemons": "https://storage.googleapis.com/isomorphic.microfrontends.app/pokemons/958ebf94c1a2ba3c8abff50ba334b04e30bfbde5/isomorphic-mf-pokemons.js",
+    "@isomorphic-mf/pokemons/": "https://storage.googleapis.com/isomorphic.microfrontends.app/pokemons/958ebf94c1a2ba3c8abff50ba334b04e30bfbde5/"
+  }
+}
